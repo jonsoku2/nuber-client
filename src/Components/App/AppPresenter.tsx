@@ -35,7 +35,7 @@ const LoggedOutRoutes: React.SFC = () => (
     <Route path={"/phone-login"} component={PhoneLogin} />
     <Route path={"/verify-phone"} component={VerifyPhone} />
     <Route path={"/social-login"} component={SocialLogin} />
-    <Redirect from={"*"} to={"/"} />
+    <Redirect from={"*"} to={"/nuber-client/"} />
   </Switch>
 );
 
@@ -49,7 +49,7 @@ const LoggedInRoutes: React.SFC = () => (
     <Route path={"/places"} component={Places} />
     <Route path={"/add-place"} component={AddPlace} />
     <Route path={"/find-address"} component={FindAddress} />
-    <Redirect from={"*"} to={"/"} />
+    <Redirect from={"*"} to={"/nuber-client/"} />
   </Switch>
 );
 
