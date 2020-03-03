@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/nuber-client/static/js/main.cd0f421e.chunk.js",
-    "main.js.map": "/nuber-client/static/js/main.cd0f421e.chunk.js.map",
+    "main.js": "/nuber-client/static/js/main.5db36e3c.chunk.js",
+    "main.js.map": "/nuber-client/static/js/main.5db36e3c.chunk.js.map",
     "runtime-main.js": "/nuber-client/static/js/runtime-main.22b0fd3b.js",
     "runtime-main.js.map": "/nuber-client/static/js/runtime-main.22b0fd3b.js.map",
     "static/css/2.c829125e.chunk.css": "/nuber-client/static/css/2.c829125e.chunk.css",
     "static/js/2.f0030136.chunk.js": "/nuber-client/static/js/2.f0030136.chunk.js",
     "static/js/2.f0030136.chunk.js.map": "/nuber-client/static/js/2.f0030136.chunk.js.map",
     "index.html": "/nuber-client/index.html",
-    "precache-manifest.f0462f24c9e2f71a8d07e84d784fce7d.js": "/nuber-client/precache-manifest.f0462f24c9e2f71a8d07e84d784fce7d.js",
+    "precache-manifest.dba520adf8d3a74324492c30396c86f0.js": "/nuber-client/precache-manifest.dba520adf8d3a74324492c30396c86f0.js",
     "service-worker.js": "/nuber-client/service-worker.js",
     "static/css/2.c829125e.chunk.css.map": "/nuber-client/static/css/2.c829125e.chunk.css.map",
     "static/js/2.f0030136.chunk.js.LICENSE.txt": "/nuber-client/static/js/2.f0030136.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.22b0fd3b.js",
     "static/css/2.c829125e.chunk.css",
     "static/js/2.f0030136.chunk.js",
-    "static/js/main.cd0f421e.chunk.js"
+    "static/js/main.5db36e3c.chunk.js"
   ]
 }
