@@ -52,7 +52,7 @@ const wsLink = new WebSocketLink({
   },
   uri: isDev
     ? "ws://localhost:4000/subscription"
-    : "ws://jonsoku-nuber-server.herokuapp.com/subscription"
+    : "wss://jonsoku-nuber-server.herokuapp.com/subscription"
 });
 
 const combinedLinks = split(
