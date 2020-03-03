@@ -38,7 +38,9 @@ const authMiddleware = new ApolloLink((operation: Operation, forward: any) => {
 });
 
 const httpLink = new HttpLink({
-  uri: isDev ? "http://localhost:4000/graphql" : ""
+  uri: isDev
+    ? "http://localhost:4000/graphql"
+    : "https://jonsoku-nuber-server.herokuapp.com/graphql"
 });
 
 const wsLink = new WebSocketLink({
@@ -48,7 +50,9 @@ const wsLink = new WebSocketLink({
     },
     reconnect: true
   },
-  uri: isDev ? "ws://localhost:4000/subscription" : ""
+  uri: isDev
+    ? "ws://localhost:4000/subscription"
+    : "ws://jonsoku-nuber-server.herokuapp.com/subscription"
 });
 
 const combinedLinks = split(
